@@ -1,3 +1,146 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid #1a0101;
+  padding: 10px;
+  background-color: #fff;
+}
+.c1{
+  border: 2px solid #1a0101;
+  background-color: #e7d4c4;
+  width: 150px;
+  height: 25px;
+  margin: auto;
+
+}
+.cabeza {
+  border: 2px solid #1a0101;
+  width: 100px;
+  height: 100px;
+  background-color: #e7d4c4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+.d2{
+  background-color: #caafaf;
+  width: 80px;
+  height: 40px;
+  margin: 5px;
+  padding: 5px;
+  border: #cfa5a5;
+}
+
+
+.torso {
+  border: 2px solid #1a0101;
+  width: 120px;
+  height: 200px;
+  background-color: #e7d4c4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.brazos{
+  border: 2px solid #1a0101;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.bderecho {
+  border: 2px solid #1a0101;
+  width: 40px;
+  height: 100px;
+  background-color: #e7d4c4;
+}
+
+.bizquierdo {
+  border: 2px solid #1a0101;
+  width: 40px;
+  height: 100px;
+  background-color: #e7d4c4;
+}
+
+.manos{
+  border: 2px solid #1a0101;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.mderecha{
+  border: 2px solid #1a0101;
+  border-color: #000;
+  width: 40px;
+  height: 60px;
+  background-color: #e7d4c4;
+  margin-top: 10px;
+}
+.mizquierda{
+  border: 2px solid #1a0101;
+  border-color: #000;
+  width: 40px;
+  height: 60px;
+  background-color: #f3c6a1;
+  margin-top: 10px;
+}
+.piernas{
+  flex direction: row;
+  flex-wrap: wrap;
+  border: #000;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.pderecha {
+  
+  border: 2px solid #1a0101;
+  border: #000;
+  width: 50px;
+  height: 20px;
+  background-color: #e7d4c4;
+}
+.pizquierda {
+  border: 2px solid #1a0101;
+  border: #000;
+  width: 100px;
+  height: 20px;
+  background-color: #d88b4c79;
+}
+
+.pabajo {
+  flex-wrap: wrap;
+  border: 2px solid #1a0101;
+  border: #cf0404;
+  width: 50px;
+  height: 20px;
+  background-color: #e7d4c4;
+}
+.pabajo2 {
+  flex-wrap: wrap;
+  border: 2px solid #1a0101;
+  border: #000;
+  width: 50px;
+  height: 20px;
+  background-color: #ce732880;
+}
 .App {
   text-align: center;
 }
